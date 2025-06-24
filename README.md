@@ -77,7 +77,7 @@ PORT=5000
 NODE_ENV=development
 
 # MongoDB Atlas Connection
-MONGODB_URI=mongodb+srv://username:password@cluster.mongodb.net/database_name?retryWrites=true&w=majority
+MONGODB_URI=your_mongodb_connection_string
 
 # EmailJS Configuration
 EMAILJS_SERVICE_ID=your_service_id
@@ -224,27 +224,4 @@ The system supports four user roles:
 - Kill existing process on port 5000
 
 ### Debug Mode
-Enable detailed logging by setting `NODE_ENV=development` in your `.env` file.
-
-## 📝 Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🤝 Support
-
-For support and questions:
-- Create an issue in the repository
-- Check the [API Documentation](API_DOCUMENTATION.md)
-- Review the troubleshooting section above
-
----
-
-**Built with ❤️ using Node.js, Express, and MongoDB** 
+Enable detailed logging by setting `NODE_ENV=development` in your `.env`
