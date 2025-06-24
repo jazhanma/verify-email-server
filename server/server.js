@@ -33,6 +33,11 @@ app.use((req, res, next) => {
   next();
 });
 
+// Root route
+app.get("/", (req, res) => {
+  res.send("✅ Email Verification API is running!");
+});
+
 // Health check endpoint
 app.get('/api/health', (req, res) => {
   res.json({ 
